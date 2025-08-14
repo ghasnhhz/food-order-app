@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test jest",
-    "devStart": "cross-env NODE_ENV=production nodemon server.js"
+    "devStart": "cross-env NODE_ENV=production nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
