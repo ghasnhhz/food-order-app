@@ -14,7 +14,8 @@ app.use(cookieParser())
 app.use(cors({
   origin: [
     'http://localhost:3000', // local dev
-    'https://food-order-with-clicks.netlify.app' // Netlify prod URL
+    'https://food-order-with-clicks.netlify.app', // Netlify prod URL
+    'https://689dfe4923a9b59a5fa06c79--food-order-with-clicks.netlify.app'
   ],
   credentials: true
 }));
