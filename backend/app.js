@@ -12,7 +12,10 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-  origin: 'https://food-order-with-clicks.netlify.app', // frontend URL
+  origin: [
+    'http://localhost:3000', // local dev
+    'https://food-order-with-clicks.netlify.app' // Netlify prod URL
+  ],
   credentials: true
 }));
 
