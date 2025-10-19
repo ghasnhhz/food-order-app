@@ -1,7 +1,7 @@
 ﻿# food-order-app
 A full-stack MERN (MongoDB, Express, React, Node.js) application for browsing, ordering, and managing food items.  
 The app is built with a **React frontend** and an **Express + Mongoose backend**, with data stored on **MongoDB Atlas**.
-Deploy: food-order-with-clicks.netlify.app/
+Deploy: http://food-order-with-clicks.netlify.app/
 
 ---
 
@@ -21,5 +21,6 @@ Deploy: food-order-with-clicks.netlify.app/
 - Authentication using JWT and cookies
 - CRUD operations for menu items
 - Order management
+
 
 
